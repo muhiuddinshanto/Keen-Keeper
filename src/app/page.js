@@ -1,16 +1,17 @@
-'use client'
-import Image from "next/image";
-import { usePathname } from "next/navigation";
+import Banner from "@/Component/Banner";
+
+
+
 
 export default function Home() {
-  const pathname = usePathname();
-        console.log(pathname);
+  
   return (
     <div className="">
       <main className="">
        
         <>
-        <h2>MOhiuddin</h2>
+        
+        <Banner/>
         </>
        
       </main>
