@@ -1,4 +1,6 @@
 import Banner from "@/Component/Banner";
+import Cards from "@/Component/Cards";
+import Footer from "@/Component/Footer";
 
 
 
@@ -12,6 +14,8 @@ export default function Home() {
         <>
         
         <Banner/>
+        <Cards/>
+        <Footer/>
         </>
        
       </main>

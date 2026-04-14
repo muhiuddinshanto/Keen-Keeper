@@ -31,7 +31,7 @@ const Banner = () => {
             </div>
 
             {/* CARD SECTION */}
-            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 pb-5'>
 
                 {card.map((item, ind) => (
                     <div key={ind} className='border border-white shadow-[0_1px_6px_0_rgba(0,0,0,0.08)] rounded-lg p-6 text-center space-y-2'>
@@ -41,6 +41,7 @@ const Banner = () => {
                 ))}
 
             </div>
+            <div className="divider"></div>
 
         </div>
     );
