@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import { FiArchive, FiPhoneCall } from 'react-icons/fi';
+import { FiArchive} from 'react-icons/fi';
 import { MdHistory } from 'react-icons/md';
 
 import { RiDeleteBin6Line, RiNotificationSnoozeLine } from 'react-icons/ri';

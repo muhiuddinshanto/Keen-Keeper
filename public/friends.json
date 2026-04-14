@@ -1,0 +1,147 @@
+[
+  {
+    "id": 1,
+    "name": "Arafat Rahman",
+    "picture": "https://randomuser.me/api/portraits/men/32.jpg",
+    "email": "arafat.rahman@gmail.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during college. Used to study together and still talks about starting a business someday.",
+    "goal": 14,
+    "next_due_date": "2026-03-30"
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "picture": "https://randomuser.me/api/portraits/women/44.jpg",
+    "email": "nusrat.jahan@yahoo.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["school", "best friend"],
+    "bio": "School friend who loves photography and traveling. Often shares travel stories.",
+    "goal": 12,
+    "next_due_date": "2026-04-16"
+  },
+  {
+    "id": 3,
+    "name": "Imran Hossain",
+    "picture": "https://randomuser.me/api/portraits/men/51.jpg",
+    "email": "imran.hossain@outlook.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gym", "fitness"],
+    "bio": "Gym partner who keeps pushing me to stay consistent and improve strength.",
+    "goal": 10,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "name": "Sadika Karim",
+    "picture": "https://randomuser.me/api/portraits/women/12.jpg",
+    "email": "sadika.karim@gmail.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["work", "colleague"],
+    "bio": "Worked together on multiple freelance projects. Very creative and detail-oriented.",
+    "goal": 15,
+    "next_due_date": "2026-03-28"
+  },
+  {
+    "id": 5,
+    "name": "Mahmudul Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/76.jpg",
+    "email": "mahmudul.hasan@gmail.com",
+    "days_since_contact": 13,
+    "status": "almost due",
+    "tags": ["university", "project partner"],
+    "bio": "University project partner. Always reliable when it comes to deadlines.",
+    "goal": 14,
+    "next_due_date": "2026-04-15"
+  },
+  {
+    "id": 6,
+    "name": "Farhana Akter",
+    "picture": "https://randomuser.me/api/portraits/women/65.jpg",
+    "email": "farhana.akter@yahoo.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["neighbor", "family friend"],
+    "bio": "Neighbor since childhood. Families are closely connected.",
+    "goal": 10,
+    "next_due_date": "2026-04-22"
+  },
+  {
+    "id": 7,
+    "name": "Tanvir Ahmed",
+    "picture": "https://randomuser.me/api/portraits/men/29.jpg",
+    "email": "tanvir.ahmed@gmail.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["business", "networking"],
+    "bio": "Met through a business event. Shares useful marketing insights.",
+    "goal": 12,
+    "next_due_date": "2026-04-01"
+  },
+  {
+    "id": 8,
+    "name": "Sharmeen Sultana",
+    "picture": "https://randomuser.me/api/portraits/women/23.jpg",
+    "email": "sharmeen.sultana@outlook.com",
+    "days_since_contact": 7,
+    "status": "on-track",
+    "tags": ["online friend", "design"],
+    "bio": "Connected through a design community. Loves UI/UX and creative projects.",
+    "goal": 14,
+    "next_due_date": "2026-04-21"
+  },
+
+  {
+    "id": 9,
+    "name": "Rafiq Uddin",
+    "picture": "https://randomuser.me/api/portraits/men/45.jpg",
+    "email": "rafiq.uddin@gmail.com",
+    "days_since_contact": 9,
+    "status": "almost due",
+    "tags": ["startup", "mentor"],
+    "bio": "Startup mentor who gives practical advice on business and freelancing.",
+    "goal": 12,
+    "next_due_date": "2026-04-18"
+  },
+  {
+    "id": 10,
+    "name": "Sadia Noor",
+    "picture": "https://randomuser.me/api/portraits/women/33.jpg",
+    "email": "sadia.noor@yahoo.com",
+    "days_since_contact": 14,
+    "status": "overdue",
+    "tags": ["school", "childhood friend"],
+    "bio": "Childhood friend. Grew up in the same neighborhood and still in touch.",
+    "goal": 15,
+    "next_due_date": "2026-04-02"
+  },
+  {
+    "id": 11,
+    "name": "Arif Hasan",
+    "picture": "https://randomuser.me/api/portraits/men/18.jpg",
+    "email": "arif.hasan@gmail.com",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["developer", "tech friend"],
+    "bio": "Tech friend who works as a developer and shares coding tips regularly.",
+    "goal": 10,
+    "next_due_date": "2026-04-25"
+  },
+  {
+    "id": 12,
+    "name": "Meherun Nisa",
+    "picture": "https://randomuser.me/api/portraits/women/25.jpg",
+    "email": "meherun.nisa@gmail.com",
+    "days_since_contact": 6,
+    "status": "on-track",
+    "tags": ["design", "creative"],
+    "bio": "Creative designer who inspires UI ideas and modern design trends.",
+    "goal": 14,
+    "next_due_date": "2026-04-23"
+  }
+]
