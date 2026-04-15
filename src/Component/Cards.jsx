@@ -1,7 +1,12 @@
+
 import Image from 'next/image';
 import React from 'react';
 import friends from '../../public/friends.json';
+import Link from 'next/link';
 const Cards = async () => {
+
+const res = await fetch('http://localhost:3000/friends.json');
+const newFriends = await res.json();
 
 
 
@@ -13,7 +18,9 @@ const Cards = async () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 '>
 
                     {
-                        friends.map(friend => (<div key={friend.id} className='shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] flex flex-col items-center p-6 rounded-xl'>
+                        newFriends.map(friend => (
+                            <Link href={`/src/app/friends/${friend.id}`} key={friend.id}>
+                        <div  className='shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] flex flex-col items-center p-6 rounded-xl'>
                             <Image className='rounded-full'
                                 src={friend.picture}
                                 alt={friend.name}
@@ -32,7 +39,8 @@ const Cards = async () => {
                                         : friend.status == 'on-track' ? 'bg-[#244D3F] text-white' : ''}`}>
                                     {friend.status}</div>
                             </div>
-                        </div>))
+                        </div> </Link> 
+                        ))
                     }
 
 
