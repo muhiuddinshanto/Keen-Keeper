@@ -25,11 +25,11 @@ const TimelinePage = () => {
 
     return (
         <div className='bg-[#F8FAFC] py-20 space-y-3'>
-            <div className='max-w-6xl mx-auto'>
+            <div className='max-w-6xl mx-auto px-3 md:px-1'>
                 <h2 className='text-[#1F2937] text-5xl font-bold'>Timeline</h2>
             </div>
             <div className='max-w-6xl mx-auto '>
-                <div className="dropdown dropdown-bottom dropdown-end ">
+                <div className="dropdown dropdown-bottom dropdown-center px-10 md:px-1">
                     <div tabIndex={0} role="button" className="btn m-1 shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] bg-[#F8FAFC]">Filter timeline <FaArrowDown /></div>
                     <ul tabIndex={-1} className="dropdown-content menu bg-base-100 rounded-box z-1 w-52 p-2 shadow-sm">
                         <li><button onClick={() => setFilter('All')}>All</button></li>
