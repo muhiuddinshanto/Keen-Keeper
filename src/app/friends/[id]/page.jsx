@@ -15,13 +15,7 @@ const FriendSingleCard = async ({ params }) => {
 
    
 
-    if (!friend) {
-        return (
-            <div className="flex justify-center items-center h-screen">
-                <h1 className="text-2xl font-bold">বন্ধু খুঁজে পাওয়া যায়নি!</h1>
-            </div>
-        );
-    }
+    
 
     return (
         <>

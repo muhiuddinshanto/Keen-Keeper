@@ -20,7 +20,7 @@ const TimelinePage = () => {
         ? interactions
         : interactions.filter(item => item.type == filter);
 
-    console.log(interactions);
+    
 
 
     return (
@@ -47,7 +47,7 @@ const TimelinePage = () => {
                         return (
                             <div
                                 key={item.id}
-                                className='shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] bg-white rounded-xl p-3 w-full max-w-6xl mx-auto flex flex-col sm:flex-row gap-4 sm:gap-5 items-start sm:items-center'
+                                className='shadow-[0_3px_6px_0_rgba(0,0,0,0.08)] bg-white rounded-xl p-3 w-full max-w-6xl mx-auto flex flex-col sm:flex-row gap-4 sm:gap-5 items-start sm:items-center mb-3'
                             >
                                 {/* Icon */}
                                 <div className='flex justify-center sm:justify-start w-full sm:w-auto'>

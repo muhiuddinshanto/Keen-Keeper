@@ -11,7 +11,7 @@ const Navitem = ({nav}) => {
     const isActive = pathname === nav.path;
     
 
-    console.log(nav);
+    
     
     return (
         <div>

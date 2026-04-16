@@ -45,7 +45,7 @@ const Navbar = () => {
                         </div>
 
 
-                        <a className="btn btn-ghost text-xl font-bold">Keen<span className='font-extrabold'>Keeper</span></a>
+                        <Link href='/' className="btn btn-ghost text-xl font-bold">Keen<span className='font-extrabold'>Keeper</span></Link>
 
                     </div>
 
@@ -60,7 +60,7 @@ const Navbar = () => {
 
                 </div>
             </div>
-           
+
         </>
 
     );
