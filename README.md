@@ -5,7 +5,7 @@
 Keen Keeper is a **Next.js-based client-side analytics dashboard** that visualizes user interaction data (Text, Call, and Video) using a Pie Chart. The data is stored in `sessionStorage` and dynamically processed to display friendship interaction insights in a clean and interactive UI.
 
 🔗 **Live Link:** [https://keen-keeper-blond.vercel.app/](https://keen-keeper-blond.vercel.app/)
-📦 **GitHub Repository:** [https://github.com/muhiuddinshanto/Keen-Keeper](https://github.com/muhiuddinshanto/Keen-Keeper)
+📦 **GitHub Repository:** [https://github.com/mohiuddinshanto/Keen-Keeper](https://github.com/mohiuddinshanto/Keen-Keeper)
 🛠️ **Technology Stack:** Next.js, React, Recharts, SessionStorage, Tailwind CSS
 
 ---
@@ -87,7 +87,7 @@ Each category is counted and passed into the PieChart for visualization.
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/muhiuddinshanto/Keen-Keeper.git
+git clone https://github.com/mohiuddinshanto/Keen-Keeper.git
 ```
 
 ### 2. Navigate to project folder
@@ -119,7 +119,7 @@ http://localhost:3000
 ## Relevant Links
 
 * 🌐 Live Site: [https://keen-keeper-blond.vercel.app/](https://keen-keeper-blond.vercel.app/)
-* 📦 GitHub Repository: [https://github.com/muhiuddinshanto/Keen-Keeper](https://github.com/muhiuddinshanto/Keen-Keeper)
+* 📦 GitHub Repository: [https://github.com/mohiuddinshanto/Keen-Keeper](https://github.com/mohiuddinshanto/Keen-Keeper)
 * 📊 Recharts Documentation: [https://recharts.org](https://recharts.org)
 * ⚡ Next.js Documentation: [https://nextjs.org/docs](https://nextjs.org/docs)
 
@@ -128,4 +128,4 @@ http://localhost:3000
 ## Author
 
 **Mohiuddin**
-GitHub: [https://github.com/muhiuddinshanto](https://github.com/muhiuddinshanto)
+GitHub: [https://github.com/mohiuddinshanto](https://github.com/mohiuddinshanto)
